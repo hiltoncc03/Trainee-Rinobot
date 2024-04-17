@@ -4,5 +4,12 @@ using namespace std;
 
 
 int main(){
-    cout << "Hello World!";
+    int n;
+    cin >> n;
+    if(n%2==0){
+        cout << "false";
+    }
+    else{
+        cout << "true";
+    }
 }
